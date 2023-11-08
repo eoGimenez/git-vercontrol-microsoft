@@ -16,3 +16,4 @@
 
 - Si usamod "git rm nombreDelArchivo" eliminara el archivo del track de git y no podremos usar el "git checkout -- nombreDelArchivo"
 
+- git reset HEAD nombreDelArchivo << Recupera la ultima version del archivo que fue eliminado del track de git
