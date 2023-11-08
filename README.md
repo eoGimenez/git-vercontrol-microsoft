@@ -11,3 +11,7 @@
 - git add . << agrega como el -A pero tambien guarda cambios (el de siempre)
 
 - git commit --amend --no-edit << es para agregar alguna pequeña modificacion un codigo sin querer crear una nueva referencia incluso sin cambiar el titulo del commit
+
+- git checkout -- nombreDelArchivo << Recupera la ultima version guardad por git de un archivo eliminado
+
+- Si usamod "git rm nombreDelArchivo" eliminara el archivo del track de git y no podremos usar el "git checkout -- nombreDelArchivo"
