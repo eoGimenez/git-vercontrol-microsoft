@@ -19,3 +19,5 @@
 - git reset HEAD nombreDelArchivo << Recupera la ultima version del archivo que fue eliminado del track de git
 
 - git reset --hard HEAD^ << hace el HEAD el commit anterior al que estas.
+
+- git revert --no-edit HEAD << Hace un revert del ultimo commit, creando un nuevo track, agregando Revert "nombre del ultimo commit"
