@@ -21,3 +21,5 @@
 - git reset --hard HEAD^ << hace el HEAD el commit anterior al que estas.
 
 - git revert --no-edit HEAD << Hace un revert del ultimo commit, creando un nuevo track, agregando Revert "nombre del ultimo commit"
+
+- git checkout trackId . << Esto recupera la version anterior que querramos, importante el " . " al final para claramente indicar que es todo
