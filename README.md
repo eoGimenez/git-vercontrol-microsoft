@@ -15,3 +15,4 @@
 - git checkout -- nombreDelArchivo << Recupera la ultima version guardad por git de un archivo eliminado
 
 - Si usamod "git rm nombreDelArchivo" eliminara el archivo del track de git y no podremos usar el "git checkout -- nombreDelArchivo"
+
