@@ -24,3 +24,4 @@
 
 - git checkout trackId . << Esto recupera la version anterior que querramos, importante el " . " al final para claramente indicar que es todo
 
+- git request-pull -p origin/main . << crea un pull request para que el owner del proyecto vea si quiere incorporar los cambios del usuario que esta colaborando
