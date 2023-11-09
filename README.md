@@ -1,4 +1,4 @@
-** Empezando el challenge de microsoft
+# Empezando el challenge de microsoft
 
 - git log --oneline
 
@@ -23,3 +23,4 @@
 - git revert --no-edit HEAD << Hace un revert del ultimo commit, creando un nuevo track, agregando Revert "nombre del ultimo commit"
 
 - git checkout trackId . << Esto recupera la version anterior que querramos, importante el " . " al final para claramente indicar que es todo
+
