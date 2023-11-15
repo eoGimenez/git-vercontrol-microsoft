@@ -31,3 +31,11 @@
 - git init --bare << Cuando es todavía está en "bare" no se pueden hacer checkout para nombrar la default branch, hay que usar:
   - git symbolic-ref HEAD refs/heads/main 
   - luego agregamos la carpeta que inicializamos con el --bare como remote origin en el proyecto que querramos trabajar en equipo
+
+# Resolver conflictos
+
+Cuando las mismas lineas fueron cambiardas daría error en automatic merge conflict,
+
+- git merger --abort << Con este comando restauramos al commit anterior a tener el error en al auto merge, 
+  - git pull << para recibir los cambios que aun no tiene en local, hacer los nuevos cambios,
+  - git reset --hard << para ir justo antes de del comienzo del merge y resolver los conflictos
